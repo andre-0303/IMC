@@ -1,0 +1,74 @@
+
+.imc{
+    width: 100%;
+    font-family: cursive;
+    color: rgb(0, 0, 0 );
+    font-size: 22px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="number"],input[type="button"]{
+    width: 100%;
+    margin: 12px 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="button"]{
+    background-color: rgba(255, 102, 0);
+    color: rgba(0, 0, 0 );
+    cursor: pointer;    
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="button"]:hover{
+    background-color: rgb(136, 230, 105);
+    color: rgba(255, 255, 255);
+}
+
+#resultado{
+    width: 280px;
+    font-size: 32px;
+    border-radius: 1em;
+    padding-left: 20px;
+    background-color: rgba(255, 102, 0);
+    color: cornsilk;
+}
+
+#conteudo{
+    margin: 30px;
+}
+
+h1{
+    color:  rgb(255, 102, 0);
+    font-weight: bold;
+    font-size: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+img{
+    width: 97%;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#texto{
+    color: red;
+    font-size: 35px;
+}

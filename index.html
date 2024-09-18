@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP IMC</title>
+    <script type="text/JavaScript" src="script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="conteudo">
+    <h1>Cálculo IMC</h1>
+    <div>
+        ......
+    </div>
+    <div>
+        <form name="IMC">
+            <label>Altura(ex: 170cm)</label><br>
+            <input type="number" name="altura" id="altura" value=" " placeholder="cm"><br>
+            <label>Peso(ex: 69,2)</label><br>
+            <input type="number" name="peso" id="peso" value=" " placeholder="kg"><br>
+
+            <input type="button" value="calcular" id="calcular" name="calcular" onClick="pessoa.imc()"><br>
+            <input type="button" value="Limpar" id="limpar" name="limpar" onClick="pessoa.limpar()">
+        </form>
+    </div>
+    <div id="resultado">
+        SEU IMC: <span id="resultadoimc"> </span>
+    </div>
+    <div id="texto"></div>
+    <div>
+        <img src="./Sem título.png" alt="Tabela de IMC" title="IMC" width="400px">
+    </div>
+    </div>
+</body>
+</html>
